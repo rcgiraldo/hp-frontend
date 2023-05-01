@@ -1,5 +1,13 @@
-import { Card } from "@mui/material";
 import PerfectScrollBar from "react-perfect-scrollbar";
+import {
+	TableBody,
+	TableCell,
+	TableHead,
+	Card,
+	Box,
+	Table,
+	TableRow,
+} from "@mui/material";
 
 const CommitList = (props) => {
 

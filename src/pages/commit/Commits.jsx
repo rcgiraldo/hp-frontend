@@ -1,5 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { getCommits } from "../../services/commitService";
+import { Box, Container } from "@mui/material";
+
+import CommitList from "../../components/commit/CommitList";
+
+
 
 const Commits = () => {
   const [commitList, setCommitList] = useState([]);
@@ -33,3 +38,5 @@ const Commits = () => {
     </>
   );
 };
+
+export default Commits;
