@@ -1,4 +1,4 @@
-const URL = process.env.BASE_URL
+const URL = process.env.BASE_URL || "https://home-test-production.up.railway.app/"
 
 export const getCommits = async () => {
 	let url = URL + "commits";
