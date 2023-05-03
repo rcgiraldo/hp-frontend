@@ -16,11 +16,7 @@ const items = [
     icon: <TimelineIcon fontSize="small" />,
     title: "Commits",
   },
-  {
-    href: "/documentation",
-    icon: <SummarizeIcon fontSize="small" />,
-    title: "Documentación",
-  },
+  
 ];
 
 const DashboardSideBar = (props) => {
