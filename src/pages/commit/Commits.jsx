@@ -8,6 +8,7 @@ import CommitList from "../../components/commit/CommitList";
 
 const Commits = () => {
   const [commitList, setCommitList] = useState([]);
+  
 
   useEffect(() => {
     let list = getCommits();
