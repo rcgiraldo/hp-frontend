@@ -1,4 +1,4 @@
-const URL = process.env.BASE_URL || "http://localhost:3000/"
+const URL = process.env.BASE_URL
 
 export const getCommits = async () => {
 	let url = URL + "commits";
